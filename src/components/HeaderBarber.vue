@@ -7,15 +7,14 @@
       <a href="" class="box_logo"><img src="../assets/avadabarbers-logo-x1.png" alt=""></a>
       <!-- navbar -->
       <ul id="nav_bar">
-        <li><a href=""><img src="../assets/cart-shopping-solid.svg" alt=""></a></li>
-        <li><a href=""><img src="../assets/bars-solid.svg" alt=""></a></li>
+        <li><a href=""><font-awesome-icon icon="fa-solid fa-cart-shopping" /></a></li>
+        <li><a href=""><font-awesome-icon icon="fa-solid fa-bars" /></a></li>
       </ul>
     </div>
   </section>
   <!-- parte inferiore header -->
-  <section id="hero">
-    <!-- sezione hero -->
-  </section>
+  <HeroBarber/>
+ 
  
 
 
@@ -23,8 +22,14 @@
 </template>
 
 <script>
+import HeroBarber from './HeroBarber.vue'
+
 export default {
   name: 'HeaderBarber',
+  components: {
+    HeroBarber
+    
+  },
   props: {
     
   }
@@ -57,8 +62,10 @@ export default {
         li{
           margin-left: 20px;
 
-           a img{
-          width: 40px;
+           a{
+          font-size: 20px;
+          text-decoration: none;
+          color: white;
           
 
         }
