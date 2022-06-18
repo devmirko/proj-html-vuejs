@@ -6,19 +6,9 @@
       <!-- logo -->
       <a href="" class="box_logo"><img src="../assets/avadabarbers-logo-x1.png" alt=""></a>
       <!-- navbar -->
-      <ul id="nav_bar">
-        <li><a href=""><font-awesome-icon icon="fa-solid fa-cart-shopping" /></a></li>
-        <li><a href=""><font-awesome-icon icon="fa-solid fa-bars" /></a></li>
-      </ul>
-      <!-- menu a scomparsa -->
-      <div id="hamburgher_menu">
-        <ul>
-          <li v-for="(item, i) in navArray" :key="i">
-          <a href="#">{{item.text}}</a>
-          </li>
-          
-        </ul>
-        <a href="" class="close"><font-awesome-icon icon="fa-solid fa-xmark" /></a>
+      <div id="nav_bar">
+        <a href=""><font-awesome-icon icon="fa-solid fa-cart-shopping" /></a>
+        <BurgherMenu :listObject ="navArray"/>
       </div>
     </div>
   </section>
@@ -33,11 +23,14 @@
 
 <script>
 import HeroBarber from './HeroBarber.vue'
+import BurgherMenu from './BurgherMenu.vue'
 
 export default {
   name: 'HeaderBarber',
   components: {
-    HeroBarber
+    HeroBarber,
+    BurgherMenu
+    
     
   },
   data(){
@@ -82,9 +75,14 @@ export default {
           
          
         }
+  },
+  methods: {
+  toggle() {
+      this.isOpen = !this.isOpen
+     }
+  }
   }
 
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -105,78 +103,38 @@ export default {
        display: flex;
        justify-content: space-between;
        align-items: center;
+       position: relative;
 
 
       #nav_bar{
         display: flex;
         list-style-type: none;
 
-        li{
-          margin-left: 20px;
-
            a{
           font-size: 20px;
           text-decoration: none;
           color: white;
+          margin-right: 20px;
           
 
-        }
+          }
 
         }
-
-      }
-      #hamburgher_menu{
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        z-index: 10;
         
 
-        
-        
-
-        ul{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          list-style-type: none;
-
-          
-
-          li{
-            margin-bottom: 20px;
-
-            a{
-            color: white;
-            text-decoration: none;
-            font-size: 25px;
-
-            &:hover{
-              color: #BE9359;
-            }
-            }
-
-          } 
-        }
-        .close{
-          display: block;
-          position: absolute;
-          top: 20px;
-          right: 20px;
-          color: white;
-          font-size: 30px;
-          text-decoration: none;
-        }
       }
       
 
-      }
-    
+        
     }
-}
+      
+
+  }
+    
+
+
+
+
+
 
 </style>
