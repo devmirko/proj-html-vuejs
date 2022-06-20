@@ -1,14 +1,20 @@
 <template>
   <div id="app">
     <HeaderBarber/>
-    <!-- parte con il main -->
+    <main>
+      <ProBarber/>
+      <ServicesBarber/>
+      
+
+    </main>
     <FooterBarber/>
-   
   </div>
 </template>
 
 <script>
 import HeaderBarber from './components/HeaderBarber.vue'
+import ProBarber from './components/ProBarber.vue'
+import ServicesBarber from './components/ServicesBarber.vue'
 import FooterBarber from './components/FooterBarber.vue'
 
 
@@ -16,7 +22,9 @@ export default {
   name: 'App',
   components: {
     HeaderBarber,
-    FooterBarber
+    FooterBarber,
+    ProBarber,
+    ServicesBarber
   }
 }
 </script>
