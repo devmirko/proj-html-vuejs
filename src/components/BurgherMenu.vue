@@ -1,6 +1,6 @@
  <template>
  <div id="container_button">
-    <Slide :isOpen="this.open" :width= "2560">
+    <Slide :isOpen="this.open" :width="2560" >
         <ul id="nav_menu">
             <li v-for="(item, i) in listObject" :key="i" >
             <a href="">{{item.text}}</a>

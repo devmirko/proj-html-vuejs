@@ -12,6 +12,7 @@
       </div>
     </div>
   </section>
+
   <!-- parte inferiore header -->
   <HeroBarber/>
  
@@ -91,6 +92,8 @@ export default {
     width: 100%;
     min-height: 980px;
     background-image: url(../assets/avadabarbers-homepage-hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
     position: relative;
 
     #nav{
