@@ -7,6 +7,7 @@
       <ProductBarber/>
       <ShowcaseProduct/>
       <ReviewsBarber/>
+      <BlogBarber/>
     </main>
     <FooterBarber/>
   </div>
@@ -20,6 +21,7 @@ import ProductBarber from './components/ProductBarber.vue'
 import FooterBarber from './components/FooterBarber.vue'
 import ShowcaseProduct from './components/ShowcaseProduct.vue'
 import ReviewsBarber from './components/ReviewsBarber.vue'
+import BlogBarber from './components/BlogBarber.vue'
 
 
 
@@ -32,7 +34,8 @@ export default {
     ServicesBarber,
     ProductBarber,
     ShowcaseProduct,
-    ReviewsBarber
+    ReviewsBarber,
+    BlogBarber
   }
 }
 </script>
