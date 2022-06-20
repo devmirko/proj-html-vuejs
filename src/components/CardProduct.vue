@@ -32,14 +32,7 @@ export default {
     align-items: center;
     padding: 0 40px;
 
-    .box_image{
-        
-        
-
-        img{
-            
-        }
-    }
+ 
     .sub_title{
         font-size: 30px;
         font-family:  Georgia, 'Times New Roman', Times, serif;
