@@ -14,6 +14,8 @@
       <!-- indirizzo -->
       <ContactBarber/>
       <!-- social -->
+      <SocialBarber/>
+
     </div>
     <!-- colonna destra appuntamento -->
     <div class="col_right">
@@ -22,19 +24,28 @@
     </div>
   </div>
   <!-- parte inferiore -->
-  <div class="footer_bottom"></div>
+  <div class="footer_bottom">
+    <p id="copyright">@Copyright 2012-2020| Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
+    <div class="arrow_top">
+      <a href="#">
+        <font-awesome-icon icon="fa-solid fa-angle-up" />
+      </a>
+    </div>
+  </div>
 
 </div>
 </template>
 
 <script>
 import ContactBarber from './ContactBarber.vue'
+import SocialBarber from './SocialBarber.vue'
 
 
 export default {
   name: 'FooterBarber',
   components: {
-    ContactBarber
+    ContactBarber,
+    SocialBarber
     
   }
 }
@@ -69,6 +80,7 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: space-around;
 
       a img{
         margin-top: 20px;
@@ -90,6 +102,32 @@ export default {
   .footer_bottom{
     height: 120px;
     background-color: #161718;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    #copyright{
+      color: #4A494A;
+    }
+
+    .arrow_top{
+      width: 30px;
+      height: 10px;
+      background-color: #4A494A;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      right: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a{
+        color: #fff;
+        text-decoration: none;
+      }
+    }
 
   }
 }

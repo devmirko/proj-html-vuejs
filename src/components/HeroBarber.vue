@@ -22,9 +22,7 @@
 <script>
 export default {
   name: 'HeroBarber',
-  props: {
-    
-  }
+
 }
 </script>
 
