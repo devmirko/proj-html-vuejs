@@ -4,8 +4,7 @@
     <main>
       <ProBarber/>
       <ServicesBarber/>
-      
-
+      <ProductBarber/>
     </main>
     <FooterBarber/>
   </div>
@@ -15,6 +14,7 @@
 import HeaderBarber from './components/HeaderBarber.vue'
 import ProBarber from './components/ProBarber.vue'
 import ServicesBarber from './components/ServicesBarber.vue'
+import ProductBarber from './components/ProductBarber.vue'
 import FooterBarber from './components/FooterBarber.vue'
 
 
@@ -24,7 +24,8 @@ export default {
     HeaderBarber,
     FooterBarber,
     ProBarber,
-    ServicesBarber
+    ServicesBarber,
+    ProductBarber
   }
 }
 </script>
