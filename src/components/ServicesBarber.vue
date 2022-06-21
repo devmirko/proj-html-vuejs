@@ -65,16 +65,18 @@ export default {
 
     .service_title{
         width: 100%;
-        height: 200px;
+        height: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
 
         .sub_title{
             font-size: 16px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: #BE9359;
+            z-index: 2000;
             
         }
         .title{
@@ -97,7 +99,7 @@ export default {
 
     .call_to{
         width: 100%;
-        height: 200px;
+        height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;

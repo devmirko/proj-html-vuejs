@@ -60,13 +60,13 @@ export default {
 <style scoped lang="scss">
 #Blog{
     width: 100%;
-    height: 800px;
+    height: 1000px;
     background-color: #F5F5F5;
    
 
     .Blog_title{
         width: 100%;
-        height: 200px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;

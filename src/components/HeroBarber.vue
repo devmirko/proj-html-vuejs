@@ -51,7 +51,7 @@ export default {
                 h2{
                 font-family:Georgia, 'Times New Roman', Times, serif;
                 font-size: 60px;
-                color: white;
+                color: #DDDDDD;
                 margin-bottom: 40px;
             }
             .line{
