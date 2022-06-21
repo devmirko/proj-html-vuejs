@@ -11,7 +11,10 @@
     :listObjectPosts = "element"
     /> 
     </div>
-    
+     <!-- call to action -->
+    <div class="call_to">
+        <button class="btn">READ MORE FROM OUR BLOG</button>
+    </div> 
 </div>
 </template>
 
@@ -28,17 +31,17 @@ export default {
         Posts : [
         {
           title: "Avada Barbers Now Open",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem officia cupiditate excepturi, maxime asperiores reprehenderit voluptatum tempore, animi eos modi quas ex adipisci libero debitis omnis reiciendis optio quidem?",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem officia cupiditate excepturi",
           path: require('../assets/avadabarbers-second-blog-700x441.jpg')
         },
         {
           title: "Chosing The Right Barber",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem officia cupiditate excepturi, maxime asperiores reprehenderit voluptatum tempore, animi eos modi quas ex adipisci libero debitis omnis reiciendis optio quidem?",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem officia cupiditate excepturi",
           path: require('../assets/avadabarbers-choosing-blog-700x441.jpg')
         },
         {
           title: "Quick Service Guide",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem officia cupiditate excepturi, maxime asperiores reprehenderit voluptatum tempore, animi eos modi quas ex adipisci libero debitis omnis reiciendis optio quidem?",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem officia cupiditate excepturi",
           path: require('../assets/avadabarbers-ourservice-blog-700x441.jpg')
         },
 
@@ -87,7 +90,7 @@ export default {
     }
     .Blog_content{
         width: 100%;
-        height: 600px;
+        height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;

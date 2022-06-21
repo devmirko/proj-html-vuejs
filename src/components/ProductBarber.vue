@@ -69,6 +69,7 @@ export default {
     height: 900px;
     background-image: url(../assets/avadabarbers-reviewsbackground.jpg);
     background-size: cover;
+    position: relative;
 
     .Products_title{
         width: 100%;

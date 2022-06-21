@@ -49,7 +49,7 @@ export default {
                 transform: translate(-50%, -50%);
 
                 h2{
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family:Georgia, 'Times New Roman', Times, serif;
                 font-size: 60px;
                 color: white;
                 margin-bottom: 40px;
@@ -61,6 +61,7 @@ export default {
                 margin-bottom: 40px;
             }
             h4{
+               font-family:Verdana, Geneva, Tahoma, sans-serif;
                font-size: 18px;
                color: #51504F;
                margin-bottom: 40px;

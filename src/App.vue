@@ -3,6 +3,9 @@
     <HeaderBarber/>
     <main>
       <ProBarber/>
+      <div class="divisorio">
+        <img src="./assets/triangle.svg" alt="">
+      </div>
       <ServicesBarber/>
       <ProductBarber/>
       <ShowcaseProduct/>
@@ -44,6 +47,20 @@ export default {
 *{
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divisorio{
+  position: relative;
+  width: 100%;
+  height: 100px;
+
+  img{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: -100px;
+  }
 }
 
 </style>

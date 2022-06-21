@@ -49,13 +49,14 @@ export default {
         font-size: 30px;
         font-family:  Georgia, 'Times New Roman', Times, serif;
         color: #BE9359;
+        margin: 20px 0;
        
             
     }
 
     p{
         font-size: 20px;
-        color: #BE9359;
+        color:#999999;
         text-align: center;
     }
 }
