@@ -40,6 +40,7 @@ export default {
     position: relative;
     display: flex;
     justify-content: center;
+    background-color: white;
     
 
     .box{

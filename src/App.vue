@@ -54,6 +54,7 @@ export default {
   position: relative;
   width: 100%;
   height: 100px;
+  background-color: white;
 
   img{
     position: absolute;

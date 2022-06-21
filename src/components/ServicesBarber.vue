@@ -61,6 +61,7 @@ export default {
 #service{
     width: 100%;
     height: 900px;
+    background-color: white;
 
     .service_title{
         width: 100%;

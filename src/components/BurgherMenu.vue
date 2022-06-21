@@ -1,9 +1,9 @@
  <template>
  <div id="container_button">
-    <Slide :isOpen="this.open" :width="2560" >
+    <Slide :isOpen="this.open">
         <ul id="nav_menu">
-            <li v-for="(item, i) in listObject" :key="i" >
-            <a href="">{{item.text}}</a>
+            <li v-for="(item, i) in listObject" :key="i">
+            <a :href="item.url">{{item.text}}</a>
             </li>
         </ul>
     </Slide>
@@ -16,6 +16,7 @@ export default {
   name: 'BurgherMenu',
   props: {
     listObject: Array,
+
    
  },
   data() {
@@ -70,8 +71,8 @@ export default {
       width: 24px;
     }
     .bm-menu {
-      height: 980px; /* 100% Full-height */
-      width: 0; /* 0 width - change this with JavaScript */
+      height: 100%; /* 100% Full-height */
+      width: 300px; /* 0 width - change this with JavaScript */
       position: fixed; /* Stay in place */
       z-index: 1000; /* Stay on top */
       top: 0;
@@ -84,7 +85,7 @@ export default {
     }
 
     .bm-overlay {
-      background: rgba(0, 0, 0, 0.3);
+      background: rgba(0, 0, 0, 0.031);
     }
     .bm-item-list {
       width: 100%;
@@ -118,6 +119,7 @@ export default {
 
                      &:hover{
                     color: #BE9359;
+                    font-size: 30px;
                     }
 
                 }

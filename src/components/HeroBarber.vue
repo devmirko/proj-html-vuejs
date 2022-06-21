@@ -7,7 +7,7 @@
                 <h2>Barber Shop</h2>
                 <div class="line"></div>
                 <h4>The Pinnacle of Male Grooming</h4>
-                <button class="btn">LEARM MORE</button>
+                <button class="btn">LEARN MORE</button>
             </div>  
         </div>
         <!-- parte di destra con immagine -->

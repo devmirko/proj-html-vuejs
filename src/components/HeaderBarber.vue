@@ -39,37 +39,37 @@ export default {
         navArray: [
         {
           text: "Home",
-          url: "#",
+          url: "#hero",
           active: true,
         },
         {
           text: "About us",
-          url: "#",
+          url: "#Reviews",
           active: false,
         },
         {
           text: "Services",
-          url: "#",
+          url: "#service",
           active: false,
         },
         {
           text: "Shop",
-          url: "#",
+          url: "#Products",
           active: false,
         },
         {
           text: "Our Team",
-          url: "#",
+          url: "#pro_barber",
           active: false,
         },
         {
           text: "Blog",
-          url: "#",
+          url: "#Blog",
           active: false,
         },
         {
           text: "Contact Us",
-          url: "#",
+          url: "#footer",
           active: false,
         },
       ],
