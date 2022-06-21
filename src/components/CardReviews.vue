@@ -52,10 +52,11 @@ export default {
     }
 
     p{
-        font-size: 16px;
+        font-size: 18px;
         color: #999999;
         text-align: center;
         padding: 0 30px;
+        line-height: 1,5;
     }
 }
 

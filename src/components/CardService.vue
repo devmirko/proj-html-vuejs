@@ -53,6 +53,7 @@ export default {
         font-size: 16px;
         color: #999999;
         text-align: center;
+        letter-spacing: 0,50px;
     }
 }
 

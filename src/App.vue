@@ -3,9 +3,6 @@
     <HeaderBarber/>
     <main>
       <ProBarber/>
-      <div class="divisorio">
-        <img src="./assets/triangle.svg" alt="">
-      </div>
       <ServicesBarber/>
       <ProductBarber/>
       <ShowcaseProduct/>

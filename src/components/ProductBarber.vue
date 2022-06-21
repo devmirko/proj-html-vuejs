@@ -118,7 +118,7 @@ export default {
         padding: 10px 20px;
         color:  #BE9359;
         border: 2px solid  #BE9359;
-        font-size: 20px;
+        font-size: 16px;
         cursor: pointer;
 
         }

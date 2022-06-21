@@ -29,17 +29,17 @@ export default {
         Reviews: [
         {
           name: "Jonh Doe",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem officia cupiditate excepturi, maxime asperiores reprehenderit voluptatum tempore, animi eos modi quas ex adipisci libero debitis omnis reiciendis optio quidem?",
+          text: "'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem officia cupiditate excepturi, maxime asperiores' ",
           path: require('../assets/avadabarbers-trimcut-gallery6-400x400.jpg')
         },
         {
           name: "Pete Jones",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem officia cupiditate excepturi, maxime asperiores reprehenderit voluptatum tempore, animi eos modi quas ex adipisci libero debitis omnis reiciendis optio quidem?",
+          text: "'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem officia cupiditate excepturi, maxime asperiores' ",
           path: require('../assets/avadabarbers-trimcut-gallery7-400x402.jpg')
         },
         {
           name: "Mark Wilson",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem officia cupiditate excepturi, maxime asperiores reprehenderit voluptatum tempore, animi eos modi quas ex adipisci libero debitis omnis reiciendis optio quidem?",
+          text: "'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem officia cupiditate excepturi, maxime asperiores' ",
           path: require('../assets/avadabarbers-trimcut-gallery3-400x402.jpg')
         },
 
@@ -58,7 +58,7 @@ export default {
 <style scoped lang="scss">
 #Reviews{
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-color: white;
     position: relative;
    
