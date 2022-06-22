@@ -25,12 +25,23 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #card{
-    width: 20%;
+    width: calc(100% / 4);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0 40px;
+
+    .box_image{
+    min-width: 300px;
+    max-width: 100%;
+
+        img{
+            max-width: 100%;
+            max-height: 100%;
+
+        }
+    }
 
  
     .sub_title{
@@ -48,7 +59,7 @@ export default {
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1524px) {
 #card{
     width: 33%;
     margin-bottom: 20px;
