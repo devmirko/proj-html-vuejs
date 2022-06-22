@@ -78,9 +78,7 @@ export default {
         }
   },
   methods: {
-  toggle() {
-      this.isOpen = !this.isOpen
-     }
+
   }
   }
 

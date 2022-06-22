@@ -1,6 +1,6 @@
  <template>
  <div id="container_button">
-    <Slide :isOpen="this.open">
+    <Slide isOpen :closeOnNavigation="true">
         <ul id="nav_menu">
             <li v-for="(item, i) in listObject" :key="i">
             <a :href="item.url">{{item.text}}</a>
@@ -16,18 +16,16 @@ export default {
   name: 'BurgherMenu',
   props: {
     listObject: Array,
+    
 
    
  },
   data() {
     return {
-      open: false
     };
   },
   methods: {
-    openMenu() {
-      this.open = true;
-    }
+    
   },
   components: {
     Slide
