@@ -55,17 +55,17 @@ export default {
 <style scoped lang="scss">
 #footer{
   width: 100%;
-  height: 600px;
+  min-height: 600px;
 
   .footer_top{
-    height: 480px;
+    min-height: 480px;
     background-color: #121314;
     display: flex;
     justify-content: center;
 
     .col_left{
       width: 20%;
-      height: 100%;
+      min-height: 100%;
       align-items: center;
       display: flex;
       flex-direction: column;
@@ -76,7 +76,7 @@ export default {
 
     .col_center{
       width: 20%;
-      height: 100%;
+      min-height: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -89,7 +89,7 @@ export default {
 
     .col_right{
       width: 20%;
-      height: 100%;
+      min-height: 100%;
       align-items: center;
       display: flex;
       flex-direction: column;
@@ -142,5 +142,85 @@ export default {
           cursor: pointer;
 
           }
+
+
+
+@media (max-width: 1300px) {
+  #footer .footer_top{
+    background-color: #121314;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  #footer .footer_top .col_left{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+
+    img{
+      width: 50%;
+    }
+  }
+
+  #footer .footer_top .col_center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    order: 1;
+
+  }
+
+
+  #footer .footer_top .col_right{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  img{
+      width: 50%;
+    }
+
+  }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+  #footer .footer_top .col_center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    order: 1;
+
+    a {
+     display: none;
+    }
+
+   
+
+  }
+
+
+
+}
 
 </style>

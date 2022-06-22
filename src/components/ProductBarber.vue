@@ -67,14 +67,14 @@ export default {
 <style scoped lang="scss">
 #Products{
     width: 100%;
-    height: 900px;
+    min-height: 900px;
     background-image: url(../assets/avadabarbers-reviewsbackground.jpg);
     background-size: cover;
     position: relative;
 
     .Products_title{
         width: 100%;
-        height: 200px;
+        min-height: 200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -98,7 +98,7 @@ export default {
     }
     .Products_content{
         width: 100%;
-        height: 500px;
+        min-height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -106,7 +106,7 @@ export default {
 
     .call_to{
         width: 100%;
-        height: 200px;
+        min-height: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -136,5 +136,41 @@ export default {
     }
 }
 
+ @media (max-width: 1300px) {
+
+  #Products{
+    min-height: 2000px;
+    background-image: none;
+    background-color: #121315;
+
+     .Products_title .title{
+      font-size: 30px;
+    } 
+  }
+
+   #Products .Products_content{
+    flex-wrap: wrap;
+    min-height: 1600px;
+   }
+
+ }
+
+ @media (max-width: 768px) {
+  #Products{
+    min-height: 2400px;
+    background-image: none;
+    background-color: #121315;
+  }
+
+   #Products .Products_content{
+    flex-wrap: wrap;
+    min-height: 2000px;
+   }
+
+   #Products .Products_title .title{
+    font-size: 30px;
+   }
+
+ }
 
 </style>

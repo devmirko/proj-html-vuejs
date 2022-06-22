@@ -36,7 +36,7 @@ export default {
 <style scoped lang="scss">
 #container{
     width: 100%;
-    height: 500px;
+    min-height: 500px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@ export default {
 
     .box{
         width: 66%;
-        height: 450px;
+        min-height: 450px;
         background-color: #121413;
         border-top: 5px solid #BE9359;
         position: absolute;
@@ -118,5 +118,42 @@ export default {
         }
     }
 }
+
+@media (max-width: 1300px) {
+#container{
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+  
+
+}
+
+#container .box{
+        width: 100%;
+        min-height: 100%;
+        background-color: #121413;
+        border-top: 5px solid #BE9359;
+        position: static;
+        display: flex;
+
+        .col_right .box_text .title{
+        font-size: 30px;
+    }
+}
+
+}
+
+@media (max-width: 768px) {
+
+#container .box .col_left{
+    display: none;
+    
+}
+ 
+ }
 
 </style>

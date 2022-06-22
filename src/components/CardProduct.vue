@@ -48,5 +48,24 @@ export default {
     }
 }
 
+@media (max-width: 1300px) {
+#card{
+    width: 33%;
+    margin-bottom: 20px;
+    
+}
+
+
+}
+
+@media (max-width: 768px) {
+
+#card{
+    width: 80%;
+    
+}
+ 
+ }
+
 
 </style>

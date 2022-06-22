@@ -38,4 +38,16 @@ export default {
 }
 
 
+@media (max-width: 768px) {
+
+#Contact{
+  margin-bottom: 20px;
+
+}
+
+
+
+}
+
+
 </style>

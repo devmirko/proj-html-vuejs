@@ -2,27 +2,27 @@
 <div>
     <h2>FOLLOW US</h2>
     <ul id="social">
-        <li>
+         <li>
             <a href="">
-                <font-awesome-icon icon="fa-brands fa-facebook-f" />
+                <font-awesome-icon icon="fa-brands fa-facebook-f"/>
             </a>
         </li>
          <li>
             <a href="">
-                <font-awesome-icon icon="fa-brands fa-twitter" />
+                <font-awesome-icon icon="fa-brands fa-twitter"/>
             </a>
         </li>
          <li>
             <a href="">
-                <font-awesome-icon icon="fa-brands fa-youtube" />
+                <font-awesome-icon icon="fa-brands fa-youtube"/>
             </a>
         </li>
          <li>
             <a href="">
-               <font-awesome-icon icon="fa-brands fa-instagram" />
+               <font-awesome-icon icon="fa-brands fa-instagram"/>
             </a>
         </li>
-        
+         
     
 
     </ul>
@@ -32,8 +32,8 @@
 <script>
 export default {
   name: 'SocialBarber',
+   
   
-
 }  
 </script>
 
@@ -58,6 +58,17 @@ h2{
         }
         
     }
+}
+
+@media (max-width: 768px) {
+
+#social{
+  margin-bottom: 20px;
+
+}
+
+
+
 }
 
 

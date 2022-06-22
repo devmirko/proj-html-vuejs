@@ -25,12 +25,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #card{
-    width: 20%;
+    width: calc( 100% /  3 );
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 30px;
     .box_image{
         width: 400px;
         height: 252px;
@@ -60,6 +60,76 @@ export default {
         text-align: center;
     }
 }
+
+@media (max-width: 1300px) {
+
+  #card{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  #card  .sub_title{
+    position: absolute;
+    top: 0;
+    right: 20px;
+     
+  }
+
+  #card  p{
+    text-align: end;
+  }
+ 
+
+ }
+
+
+ @media (max-width: 768px) {
+
+  #card{
+    width: 80%;
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 30px;
+    
+  }
+
+  #card .box_image{
+        width: 80%;
+        margin: 0 auto;
+        min-height: 400px;
+        
+        
+
+        img{
+           width: 100%;
+           height: 100%;
+            
+        }
+
+  }    
+
+  #card  .sub_title{
+    position: static;
+    text-align: center;
+     
+  }
+
+  #card  p{
+    text-align: center;
+  }
+ 
+
+ }
 
 
 </style>

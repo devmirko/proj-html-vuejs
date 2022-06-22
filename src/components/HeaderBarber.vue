@@ -133,6 +133,20 @@ export default {
       
 
   }
+
+  @media (max-width: 580px) {
+    .box_logo{
+      display: none;
+    }
+
+    #header #nav .container {
+      justify-content: flex-end;
+    }
+
+}
+
+
+
     
 
 </style>

@@ -96,6 +96,23 @@ export default {
         }
     }
 
+}
+
+@media (max-width: 1200px) {
+.box_img {
+display: none;
+}
+}
+
+@media (max-width: 768px) {
+
+#hero .container .box_text_left{
+    width: 100%;
+}    
+
+.box_text{
+    text-align: center;
+}
 
 }
 

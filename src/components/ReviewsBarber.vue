@@ -58,14 +58,14 @@ export default {
 <style scoped lang="scss">
 #Reviews{
     width: 100%;
-    height: 800px;
+    min-height: 800px;
     background-color: white;
     position: relative;
    
 
     .Reviews_title{
         width: 100%;
-        height: 200px;
+        min-height: 200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -89,7 +89,7 @@ export default {
     }
     .Reviews_content{
         width: 100%;
-        height: 400px;
+        min-height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -106,6 +106,39 @@ export default {
     }
 
    
+}
+
+@media (max-width: 768px) {
+
+#Reviews{
+
+  width: 100%;
+  // height: 1800px;
+  background-color: white;
+  position: relative;
+
+
+}
+
+#Reviews .Reviews_content{
+
+  width: 100%;
+  // height: 800px;
+  display: block;
+ 
+
+}
+
+
+
+
+}
+
+@media (max-width: 1300px) {
+#Reviews .Reviews_title .title{
+    font-size: 30px;
+}
+
 }
 
 

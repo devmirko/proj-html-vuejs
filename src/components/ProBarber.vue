@@ -21,14 +21,14 @@ export default {
 <style scoped lang="scss">
 #pro_barber{
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     background-image: url(../assets/avadabarbers-about-introbackground.jpg);
     display: flex;
     justify-content: center;
     position: relative;
 
     .container{
-        width: 30%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -64,6 +64,14 @@ export default {
     cursor: pointer;
 
     }
+
+
+@media (max-width: 1300px) {
+#pro_barber .container .title{
+    font-size: 30px;
+}
+
+}
 
 
 

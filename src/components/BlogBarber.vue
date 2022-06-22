@@ -60,13 +60,13 @@ export default {
 <style scoped lang="scss">
 #Blog{
     width: 100%;
-    height: 1000px;
+    min-height: 1000px;
     background-color: #F5F5F5;
    
 
     .Blog_title{
         width: 100%;
-        height: 400px;
+        min-height: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -90,7 +90,7 @@ export default {
     }
     .Blog_content{
         width: 100%;
-        height: 400px;
+        min-height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -98,7 +98,7 @@ export default {
 
     .call_to{
         width: 100%;
-        height: 200px;
+        min-height: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -119,6 +119,21 @@ export default {
 
    
 }
+
+
+@media (max-width: 1300px) {
+
+  #Blog  .Blog_content{
+   display: block;
+   margin: 0 auto;
+  }
+
+  #Blog  .Blog_title .title{
+  font-size: 30px;
+
+  }
+
+ }
 
 
 </style>

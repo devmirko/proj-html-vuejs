@@ -57,5 +57,20 @@ export default {
     }
 }
 
+@media (max-width: 768px) {
+
+  #card{
+    width: 80%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+
+}
+
 
 </style>

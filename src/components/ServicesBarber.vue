@@ -61,14 +61,14 @@ export default {
 <style scoped lang="scss">
 #service{
     width: 100%;
-    height: 900px;
+    min-height: 900px;
     background-color: white;
     position: relative;
     box-shadow: 1px -100px 50px 10px rgba(0, 0, 0, 0.502);
 
     .service_title{
         width: 100%;
-        height: 100px;
+        min-height: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -94,7 +94,7 @@ export default {
     }
     .service_content{
         width: 100%;
-        height: 500px;
+        min-height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -102,7 +102,7 @@ export default {
 
     .call_to{
         width: 100%;
-        height: 100px;
+        min-height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -127,6 +127,35 @@ export default {
 
     }
    
+}
+
+
+@media (max-width: 768px) {
+
+  #service{
+    min-height: 1200px;
+
+  
+  }
+
+  #service .service_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 900px;
+  }
+
+
+
+
+}
+
+@media (max-width: 1300px) {
+#service .service_title .title{
+    font-size: 30px;
+}
+
 }
 
 

@@ -60,5 +60,89 @@ export default {
     }
 }
 
+@media (max-width: 768px) {
+
+#card{
+
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative;
+  
+
+  .sub_title{
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #BE9359;
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        
+        
+    }
+
+    .box_image{
+        width: 100px;
+
+        img{
+            max-width: 100%;
+            border-radius: 50%;
+            margin-left: 10px;
+            
+        }
+    }
+
+}
+
+
+}
+
+@media (max-width: 562px) {
+
+#card{
+
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  
+
+  .sub_title{
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #BE9359;
+        position: static;
+        margin-top: 10px;
+        
+        
+    }
+
+    .box_image{
+        width: 100px;
+        display: none;
+
+        img{
+            max-width: 100%;
+            border-radius: 50%;
+            margin-left: 10px;
+            
+        }
+    }
+
+   
+  
+
+}
+
+
+
+
+
+
+}
+
 
 </style>
